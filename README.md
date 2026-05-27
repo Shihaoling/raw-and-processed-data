@@ -1,6 +1,6 @@
 # Raw and Processed Data
 
-This repository contains the raw result files and processed data for a **Self-Learning Variable Neighborhood Search (SL-VNS)** algorithm applied to a drone-truck collaborative inspection/routing problem. The algorithm co-optimizes routes for a ground truck and multiple drones to minimize the total mission completion time (makespan).
+This repository contains the raw result files and processed data for a **Self-Learning Variable Neighborhood Search (SVNS)** algorithm applied to a drone-truck collaborative inspection/routing problem. The algorithm co-optimizes routes for a ground truck and multiple drones to minimize the total mission completion time (makespan).
 
 ---
 
