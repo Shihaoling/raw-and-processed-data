@@ -1,0 +1,318 @@
+{
+  "instance_path": "instances/3/instance_C_3_4.json",
+  "instance_name": "instance_C_3_4.json",
+  "method": "generic_alns_stage1_baseline",
+  "note": "This is a generic ALNS baseline for Stage-1 only. It uses adaptive destroy/repair operators with simulated annealing acceptance.",
+  "parameters": {
+    "drone_num": 2,
+    "V_k": 20.0,
+    "V_d": 30.0,
+    "LTD": 0.1,
+    "RTD": 0.1,
+    "DD": 5.0,
+    "TD": 200.0,
+    "repeats": 5,
+    "max_iter": 500,
+    "no_improve_limit": 35,
+    "local_search_rounds": 2,
+    "temperature_factor": 0.05,
+    "cooling_rate": 0.995,
+    "segment_length": 10,
+    "reaction_factor": 0.2,
+    "destroy_rate_min": 0.15,
+    "destroy_rate_max": 0.4
+  },
+  "feasibility_check": {
+    "stage1_feasibility_conditions": [
+      "truck route starts at node 0 and ends at destination node |N|",
+      "each coverage node is covered exactly once",
+      "each drone sortie starts/ends at truck-accessible nodes (N3)",
+      "for every sortie, launch position index < recover position index on truck route",
+      "each sortie flight time <= DD (5.0)",
+      "mission completion time <= TD (200.0)"
+    ],
+    "feasible_run_count": 5,
+    "total_run_count": 5
+  },
+  "best_solution": {
+    "truck_route": [
+      0,
+      2,
+      1,
+      4,
+      3,
+      6,
+      5,
+      18
+    ],
+    "drone_route": {
+      "1": {
+        "1": [
+          2,
+          13,
+          11,
+          9,
+          7,
+          14,
+          12,
+          10,
+          8,
+          1
+        ],
+        "2": [
+          6,
+          17,
+          16,
+          5
+        ]
+      },
+      "2": {
+        "1": [
+          4,
+          15,
+          3
+        ]
+      }
+    },
+    "completion_time": 10.250996995650372
+  },
+  "statistics": {
+    "completion_times": [
+      10.250996995650372,
+      10.250996995650372,
+      10.250996995650372,
+      10.250996995650372,
+      10.250996995650372
+    ],
+    "completion_time_mean": 10.250996995650372,
+    "completion_time_variance": 0.0,
+    "total_runtime_sec": 0.03840208053588867
+  },
+  "runs": [
+    {
+      "seed": 2026,
+      "feasible": true,
+      "completion_time": 10.250996995650372,
+      "runtime_sec": 0.007768869400024414,
+      "truck_route": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        18
+      ],
+      "drone_route": {
+        "1": {
+          "1": [
+            2,
+            13,
+            11,
+            9,
+            7,
+            14,
+            12,
+            10,
+            8,
+            1
+          ],
+          "2": [
+            6,
+            17,
+            16,
+            5
+          ]
+        },
+        "2": {
+          "1": [
+            4,
+            15,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "seed": 2123,
+      "feasible": true,
+      "completion_time": 10.250996995650372,
+      "runtime_sec": 0.007859945297241211,
+      "truck_route": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        18
+      ],
+      "drone_route": {
+        "1": {
+          "1": [
+            2,
+            13,
+            11,
+            9,
+            7,
+            14,
+            12,
+            10,
+            8,
+            1
+          ],
+          "2": [
+            6,
+            17,
+            16,
+            5
+          ]
+        },
+        "2": {
+          "1": [
+            4,
+            15,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "seed": 2220,
+      "feasible": true,
+      "completion_time": 10.250996995650372,
+      "runtime_sec": 0.007811069488525391,
+      "truck_route": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        18
+      ],
+      "drone_route": {
+        "1": {
+          "1": [
+            2,
+            13,
+            11,
+            9,
+            7,
+            14,
+            12,
+            10,
+            8,
+            1
+          ],
+          "2": [
+            6,
+            17,
+            16,
+            5
+          ]
+        },
+        "2": {
+          "1": [
+            4,
+            15,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "seed": 2317,
+      "feasible": true,
+      "completion_time": 10.250996995650372,
+      "runtime_sec": 0.0071868896484375,
+      "truck_route": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        18
+      ],
+      "drone_route": {
+        "1": {
+          "1": [
+            2,
+            13,
+            11,
+            9,
+            7,
+            14,
+            12,
+            10,
+            8,
+            1
+          ],
+          "2": [
+            6,
+            17,
+            16,
+            5
+          ]
+        },
+        "2": {
+          "1": [
+            4,
+            15,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "seed": 2414,
+      "feasible": true,
+      "completion_time": 10.250996995650372,
+      "runtime_sec": 0.00772404670715332,
+      "truck_route": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        6,
+        5,
+        18
+      ],
+      "drone_route": {
+        "1": {
+          "1": [
+            2,
+            13,
+            11,
+            9,
+            7,
+            14,
+            12,
+            10,
+            8,
+            1
+          ],
+          "2": [
+            6,
+            17,
+            16,
+            5
+          ]
+        },
+        "2": {
+          "1": [
+            4,
+            15,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}

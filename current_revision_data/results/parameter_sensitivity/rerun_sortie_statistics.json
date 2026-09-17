@@ -1,0 +1,29 @@
+{
+  "R": {
+    "sorties": 101,
+    "mean_flight_time": 2.5413583597171296,
+    "utilisation_percent": 16.942389064780865,
+    "max_flight_time": 6.186724777280928,
+    "share_coverage": 73.80479291092277,
+    "share_waiting": 20.386912274713655,
+    "share_operations": 5.8082948143635855
+  },
+  "C": {
+    "sorties": 76,
+    "mean_flight_time": 2.2325301499091075,
+    "utilisation_percent": 14.883534332727383,
+    "max_flight_time": 5.5658164807509545,
+    "share_coverage": 71.79456403344568,
+    "share_waiting": 21.77375897116247,
+    "share_operations": 6.431676995391856
+  },
+  "RC": {
+    "sorties": 92,
+    "mean_flight_time": 1.5941402040159556,
+    "utilisation_percent": 10.627601360106372,
+    "max_flight_time": 3.4970218878478896,
+    "share_coverage": 66.50747382821895,
+    "share_waiting": 25.148533132690332,
+    "share_operations": 8.343993039090718
+  }
+}

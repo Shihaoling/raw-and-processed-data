@@ -1,0 +1,206 @@
+{
+  "C_3_4": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_3_4": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_3_4": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_6_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_6_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": true,
+    "stored_route_role": "minimum-objective route among the five retained runs",
+    "stored_route_repeat": 3
+  },
+  "C_6_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_6_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_6_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_6_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_6_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_6_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_6_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_9_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_9_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_9_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_9_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_9_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_9_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_9_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_9_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": true,
+    "stored_route_role": "minimum-objective route among the five retained runs",
+    "stored_route_repeat": 5
+  },
+  "RC_9_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_12_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": true,
+    "stored_route_role": "minimum-objective route among the five retained runs",
+    "stored_route_repeat": 3
+  },
+  "C_12_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "C_12_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": true,
+    "stored_route_role": "minimum-objective route among the five retained runs",
+    "stored_route_repeat": 2
+  },
+  "R_12_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_12_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "R_12_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_12_10": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": true,
+    "stored_route_role": "minimum-objective route among the five retained runs",
+    "stored_route_repeat": 4
+  },
+  "RC_12_20": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": false,
+    "stored_route_role": "feasible nominal route used as the recovery input",
+    "stored_route_repeat": null,
+    "note": "The historical file does not identify this route's repeat index or rank."
+  },
+  "RC_12_30": {
+    "five_run_aggregate_retained": true,
+    "individual_run_records_retained": true,
+    "stored_route_role": "minimum-objective route among the five retained runs",
+    "stored_route_repeat": 1
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "case": "RC_3_4",
+  "instance": "RC-4-3",
+  "plan_source": "results/基础算例/3/result_RC_3_4.json",
+  "plan_replaced": false,
+  "parameters": {
+    "drone_speed": 30.0,
+    "truck_speed": 20.0,
+    "launch_time": 0.1,
+    "retrieval_time": 0.1,
+    "endurance": 15.0,
+    "truck_endurance": 200.0
+  },
+  "original_plan": {
+    "truck_route": [
+      0,
+      4,
+      18
+    ],
+    "drone_route": {
+      "1": {
+        "1": [
+          0,
+          9,
+          8,
+          4
+        ],
+        "2": [
+          4,
+          11,
+          10,
+          12,
+          13,
+          15,
+          14,
+          16,
+          17,
+          18
+        ]
+      },
+      "2": {
+        "1": [
+          4,
+          7,
+          18
+        ]
+      }
+    },
+    "virtual_nodes": {},
+    "completed_by_failed_drones": {}
+  },
+  "original_schedule": {
+    "truck_arrival": {
+      "0": 0.0,
+      "4": 2.9040149785619906,
+      "18": 7.504299060300351
+    },
+    "truck_leave": {
+      "0": 0.1,
+      "4": 3.104014978561991,
+      "18": 8.12362872434766
+    },
+    "sorties": [
+      {
+        "drone_id": 1,
+        "sortie_index": 0,
+        "route": [
+          0,
+          9,
+          8,
+          4
+        ],
+        "launch_time": 0.1,
+        "node_arrival_times": [
+          0.1,
+          1.8159383568311669,
+          2.0563084418620994,
+          2.341108566706017
+        ],
+        "retrieval_complete": 3.0040149785619907,
+        "flight_time": 2.241108566706017
+      },
+      {
+        "drone_id": 1,
+        "sortie_index": 1,
+        "route": [
+          4,
+          11,
+          10,
+          12,
+          13,
+          15,
+          14,
+          16,
+          17,
+          18
+        ],
+        "launch_time": 3.104014978561991,
+        "node_arrival_times": [
+          3.104014978561991,
+          4.401037067563257,
+          4.626110874455858,
+          4.6727775411225245,
+          4.882555069876793,
+          4.924412758724871,
+          5.092671818246524,
+          5.139338484913191,
+          5.223468014674017,
+          8.02362872434766
+        ],
+        "retrieval_complete": 8.12362872434766,
+        "flight_time": 4.919613745785669
+      },
+      {
+        "drone_id": 2,
+        "sortie_index": 0,
+        "route": [
+          4,
+          7,
+          18
+        ],
+        "launch_time": 3.0040149785619907,
+        "node_arrival_times": [
+          3.0040149785619907,
+          5.031602488661397,
+          7.757812719407042
+        ],
+        "retrieval_complete": 7.8578127194070415,
+        "flight_time": 4.753797740845052
+      }
+    ],
+    "completion": 8.12362872434766
+  },
+  "original_completion": 8.12362872434766,
+  "experiment": "single_failure",
+  "failed_drone_id": 1,
+  "failure_time": 5.0,
+  "event_source": "fail_drone_id_time.xlsx",
+  "status": "completed",
+  "rtar_runtime_seconds": 0.0004065409884788096,
+  "event_state": {
+    "time": 5.0,
+    "truck": {
+      "status": "in_transit",
+      "node": 19,
+      "position": [
+        70.40564910887012,
+        59.59232859095728
+      ]
+    },
+    "surviving_drones": {
+      "2": {
+        "status": "in_flight",
+        "position": [
+          20.43641503911007,
+          82.15834242457345
+        ]
+      }
+    },
+    "failed_drones": {
+      "1": {
+        "position": [
+          24.3132284094653,
+          62.74215227297687
+        ],
+        "completed_nodes": [
+          9,
+          8,
+          11,
+          10,
+          12,
+          13,
+          15
+        ],
+        "unfinished_nodes": [
+          14,
+          16,
+          17
+        ]
+      }
+    },
+    "unfinished_nodes_by_target": {
+      "2": [
+        14,
+        16,
+        17
+      ]
+    }
+  },
+  "reconstruction_log": [
+    {
+      "target": 2,
+      "nodes": [
+        14,
+        16,
+        17
+      ],
+      "level": 3,
+      "drone": 2,
+      "new_stop": 6,
+      "variant": "redirect_open",
+      "completion": 11.474647468418185
+    }
+  ],
+  "candidates_evaluated": 10,
+  "candidates_infeasible": 0,
+  "audit_violations": [],
+  "search_config": {
+    "max_extended_stops": 0
+  },
+  "recovered_completion": 11.474647468418185,
+  "recovered_plan": {
+    "truck_route": [
+      0,
+      4,
+      19,
+      6,
+      18
+    ],
+    "drone_route": {
+      "2": {
+        "1": [
+          4,
+          21,
+          7,
+          6
+        ],
+        "2": [
+          6,
+          14,
+          16,
+          17,
+          18
+        ]
+      }
+    },
+    "virtual_nodes": {
+      "19": {
+        "coords": [
+          70.40564910887012,
+          59.59232859095728
+        ],
+        "meaning": "truck position at t=5.000000"
+      },
+      "20": {
+        "coords": [
+          24.3132284094653,
+          62.74215227297687
+        ],
+        "meaning": "drone 1 position at t=5.000000"
+      },
+      "21": {
+        "coords": [
+          20.43641503911007,
+          82.15834242457345
+        ],
+        "meaning": "drone 2 position at t=5.000000"
+      }
+    },
+    "completed_by_failed_drones": {
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "15": 1
+    }
+  },
+  "recovered_schedule": {
+    "truck_arrival": {
+      "0": 0.0,
+      "4": 2.9040149785619906,
+      "19": 5.0,
+      "6": 7.12711735735045,
+      "18": 11.374647468418186
+    },
+    "truck_leave": {
+      "0": 0.1,
+      "4": 3.104014978561991,
+      "19": 5.0,
+      "6": 7.327117357350449,
+      "18": 11.474647468418185
+    },
+    "sorties": [
+      {
+        "drone_id": 2,
+        "sortie_index": 0,
+        "route": [
+          4,
+          21,
+          7,
+          6
+        ],
+        "launch_time": 3.0040149785619907,
+        "node_arrival_times": [
+          3.0040149785619907,
+          5.0,
+          5.031602488661397,
+          5.749624462945998
+        ],
+        "retrieval_complete": 7.2271173573504495,
+        "flight_time": 2.745609484384007
+      },
+      {
+        "drone_id": 2,
+        "sortie_index": 1,
+        "route": [
+          6,
+          14,
+          16,
+          17,
+          18
+        ],
+        "launch_time": 7.327117357350449,
+        "node_arrival_times": [
+          7.327117357350449,
+          7.5359234875286605,
+          7.582590154195327,
+          7.6667196839561536,
+          10.466880393629797
+        ],
+        "retrieval_complete": 11.474647468418185,
+        "flight_time": 3.139763036279347
+      }
+    ],
+    "completion": 11.474647468418185
+  }
+}

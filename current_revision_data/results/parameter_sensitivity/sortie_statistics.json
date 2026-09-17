@@ -1,0 +1,40 @@
+{
+  "reference_endurance": 15.0,
+  "R": {
+    "mean_flight_time": 2.415782636293502,
+    "utilisation_percent": 16.105217575290013,
+    "share_coverage": 67.55,
+    "share_waiting": 18.99,
+    "share_operations": 13.46
+  },
+  "C": {
+    "mean_flight_time": 1.6113316827635416,
+    "utilisation_percent": 10.74221121842361,
+    "share_coverage": 65.81,
+    "share_waiting": 23.57,
+    "share_operations": 10.62
+  },
+  "RC": {
+    "mean_flight_time": 1.6296083081231219,
+    "utilisation_percent": 10.864055387487479,
+    "share_coverage": 62.81,
+    "share_waiting": 23.11,
+    "share_operations": 14.08
+  },
+  "figure19_source": "Recomputed from results/\u7b97\u4f8b/\u65e0\u4eba\u673a\u4e2a\u6570/result_{R,C,RC}_9_10_V_2.json",
+  "figure20_source": "Authors' original historical exploratory Figure 20",
+  "figure19_protocol": {
+    "truck_speed": 20.0,
+    "drone_speed": 30.0,
+    "launch_time": 0.1,
+    "retrieval_time": 0.1,
+    "drone_count": 2
+  },
+  "figure20_protocol": {
+    "truck_speed": 20.0,
+    "drone_speed": 40.0,
+    "launch_time": 0.1,
+    "retrieval_time": 0.1,
+    "drone_count": 5
+  }
+}

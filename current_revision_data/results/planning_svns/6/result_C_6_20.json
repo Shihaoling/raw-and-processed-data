@@ -1,0 +1,223 @@
+{
+    "truck_route": [
+        0,
+        8,
+        15,
+        16,
+        103
+    ],
+    "drone_route": {
+        "1": {
+            "1": [
+                0,
+                29,
+                30,
+                19,
+                20,
+                22,
+                21,
+                23,
+                24,
+                26,
+                25,
+                27,
+                28,
+                32,
+                31,
+                33,
+                34,
+                36,
+                35,
+                37,
+                38,
+                40,
+                39,
+                41,
+                42,
+                44,
+                43,
+                45,
+                46,
+                48,
+                47,
+                49,
+                50,
+                58,
+                57,
+                55,
+                56,
+                54,
+                53,
+                51,
+                52,
+                103
+            ]
+        },
+        "2": {
+            "1": [
+                0,
+                91,
+                92,
+                90,
+                89,
+                87,
+                88,
+                86,
+                85,
+                83,
+                84,
+                82,
+                81,
+                79,
+                80,
+                78,
+                77,
+                75,
+                76,
+                74,
+                73,
+                71,
+                72,
+                70,
+                69,
+                67,
+                68,
+                66,
+                65,
+                63,
+                64,
+                62,
+                61,
+                59,
+                60,
+                94,
+                93,
+                95,
+                96,
+                97,
+                98,
+                103
+            ]
+        },
+        "3": {
+            "1": [
+                16,
+                99,
+                103
+            ],
+            "2": [
+                15,
+                101,
+                102,
+                16
+            ]
+        },
+        "4": {
+            "1": [
+                8,
+                100,
+                103
+            ]
+        },
+        "5": {
+            "1": [
+                8,
+                17,
+                18,
+                103
+            ]
+        }
+    },
+    "global_optimal_time": 9.890097964285818,
+    "total_local_search_weight": {
+        "NS1": 3.409440062708758,
+        "NS2": 3.0886341485016784,
+        "NS3": 3.070871143471956,
+        "NS5": 3.1731291323175035,
+        "NS6": 3.1996918564279646,
+        "NS7": 2.9982174002717636,
+        "NS8": 3.070596573555874
+    },
+    "shaking_method_first_num": {
+        "NS1": 45.0,
+        "NS2": 14.0,
+        "NS6": 5.4,
+        "NS7": 0.0
+    },
+    "init_time": 29.227020394614375,
+    "improvement": 0.6616111450721726,
+    "iter_num": 64.4,
+    "time_elapsed": 68.66790628433228,
+    "global_optimal_time_var": 0.6399167731471324,
+    "provenance": {
+        "solver": "svns_rerun/self_learning_VNS_validated.py",
+        "reason": "historical plan violated per-drone sortie chronology",
+        "protocol": {
+            "max_iter": 500,
+            "local_iter": 100,
+            "temperature": 10000,
+            "rho": 0.8,
+            "stop_same_num": 35,
+            "LTD": 0.1,
+            "RTD": 0.1,
+            "TD": 200,
+            "DD": 15,
+            "V_d": 30,
+            "V_k": 20,
+            "local_search_update_frequency": 10,
+            "temperature_decay": 0.97,
+            "shaking_reset_num": 15,
+            "drones": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "runs": [
+            {
+                "repeat": 1,
+                "seed": 20265912,
+                "failed_attempts": [],
+                "global_optimal_time": 10.906707512166662,
+                "time_elapsed": 106.06654477119446,
+                "plan_valid": true
+            },
+            {
+                "repeat": 2,
+                "seed": 20265913,
+                "failed_attempts": [],
+                "global_optimal_time": 10.326545886771545,
+                "time_elapsed": 75.41100287437439,
+                "plan_valid": true
+            },
+            {
+                "repeat": 3,
+                "seed": 20265914,
+                "failed_attempts": [],
+                "global_optimal_time": 8.94534526785967,
+                "time_elapsed": 37.95524597167969,
+                "plan_valid": true
+            },
+            {
+                "repeat": 4,
+                "seed": 20265915,
+                "failed_attempts": [],
+                "global_optimal_time": 10.326545886771545,
+                "time_elapsed": 88.11314082145691,
+                "plan_valid": true
+            },
+            {
+                "repeat": 5,
+                "seed": 20265916,
+                "failed_attempts": [],
+                "global_optimal_time": 8.94534526785967,
+                "time_elapsed": 35.79359698295593,
+                "plan_valid": true
+            }
+        ],
+        "stored_route_repeat": 3,
+        "stored_route_recomputed_time": 8.94534526785967
+    }
+}

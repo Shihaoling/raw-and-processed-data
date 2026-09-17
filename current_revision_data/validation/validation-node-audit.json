@@ -1,0 +1,452 @@
+{
+  "audit": "Validation tables and unfinished-node suffix; static AST and saved-output extraction only",
+  "generated_at": "2026-09-10T15:28:48.991003+00:00",
+  "source": {
+    "path": "model_validation_with_point_coverage-henry.ipynb",
+    "sha256": "61cf93e59222e1897a18aac4436d54b0f2868562070c19020425c55f89391c68",
+    "cell_index_convention": "zero-based",
+    "cells": [
+      {
+        "index": 0,
+        "id": "0e3ea44a",
+        "execution_count": 1,
+        "purpose": "sort_points definition"
+      },
+      {
+        "index": 1,
+        "id": "d349d2be",
+        "execution_count": 2,
+        "purpose": "base, operational, line and area coordinate arrays"
+      },
+      {
+        "index": 3,
+        "id": "5a2bfd7f",
+        "execution_count": 3,
+        "purpose": "active sorting, point coordinate, node indexing, drone speed"
+      },
+      {
+        "index": 5,
+        "id": "59b68184",
+        "execution_count": 5,
+        "purpose": "saved sorted coverage coordinates"
+      },
+      {
+        "index": 39,
+        "id": "f4fef9b9",
+        "execution_count": 26,
+        "purpose": "saved nominal drone routes"
+      },
+      {
+        "index": 41,
+        "id": "7a0eb6b6",
+        "execution_count": 28,
+        "purpose": "saved Drone 1 arrival times"
+      }
+    ]
+  },
+  "manuscript": {
+    "path": "main.tex",
+    "sha256": "49c39d195067eae4953a392fc9772d9cd490a0624eebe950871fdb8326983876",
+    "tables": {
+      "validation_operational": {
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          20
+        ],
+        "row_count": 6
+      },
+      "validation": {
+        "nodes": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "row_count": 15
+      }
+    }
+  },
+  "nodes": [
+    {
+      "node": 0,
+      "expected_class": "origin",
+      "current_class": "origin",
+      "expected_coordinates": [
+        17,
+        3
+      ],
+      "current_coordinates": [
+        17.0,
+        3.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 1,
+      "expected_class": "operational",
+      "current_class": "operational",
+      "expected_coordinates": [
+        5,
+        10
+      ],
+      "current_coordinates": [
+        5.0,
+        10.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 2,
+      "expected_class": "operational",
+      "current_class": "operational",
+      "expected_coordinates": [
+        6,
+        8
+      ],
+      "current_coordinates": [
+        6.0,
+        8.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 3,
+      "expected_class": "operational",
+      "current_class": "operational",
+      "expected_coordinates": [
+        0,
+        8
+      ],
+      "current_coordinates": [
+        0.0,
+        8.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 4,
+      "expected_class": "operational",
+      "current_class": "operational",
+      "expected_coordinates": [
+        15,
+        9
+      ],
+      "current_coordinates": [
+        15.0,
+        9.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 5,
+      "expected_class": "line",
+      "current_class": "line",
+      "expected_coordinates": [
+        11,
+        9
+      ],
+      "current_coordinates": [
+        11.0,
+        9.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 6,
+      "expected_class": "line",
+      "current_class": "line",
+      "expected_coordinates": [
+        15,
+        2
+      ],
+      "current_coordinates": [
+        15.0,
+        2.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 7,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -6.0,
+        0.75
+      ],
+      "current_coordinates": [
+        -6.0,
+        0.75
+      ],
+      "pass": true
+    },
+    {
+      "node": 8,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -6.0,
+        2.25
+      ],
+      "current_coordinates": [
+        -6.0,
+        2.25
+      ],
+      "pass": true
+    },
+    {
+      "node": 9,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -6.0,
+        3.75
+      ],
+      "current_coordinates": [
+        -6.0,
+        3.75
+      ],
+      "pass": true
+    },
+    {
+      "node": 10,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -6.0,
+        5.25
+      ],
+      "current_coordinates": [
+        -6.0,
+        5.25
+      ],
+      "pass": true
+    },
+    {
+      "node": 11,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -4.0,
+        0.0
+      ],
+      "current_coordinates": [
+        -4.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 12,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -4.0,
+        3.0
+      ],
+      "current_coordinates": [
+        -4.0,
+        3.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 13,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -4.0,
+        3.0
+      ],
+      "current_coordinates": [
+        -4.0,
+        3.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 14,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -4.0,
+        6.0
+      ],
+      "current_coordinates": [
+        -4.0,
+        6.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 15,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -2.5,
+        0.0
+      ],
+      "current_coordinates": [
+        -2.5,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 16,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        -2.5,
+        4.5
+      ],
+      "current_coordinates": [
+        -2.5,
+        4.5
+      ],
+      "pass": true
+    },
+    {
+      "node": 17,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        0.5,
+        0.0
+      ],
+      "current_coordinates": [
+        0.5,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "node": 18,
+      "expected_class": "area",
+      "current_class": "area",
+      "expected_coordinates": [
+        0.5,
+        4.5
+      ],
+      "current_coordinates": [
+        0.5,
+        4.5
+      ],
+      "pass": true
+    },
+    {
+      "node": 19,
+      "expected_class": "point",
+      "current_class": "point",
+      "expected_coordinates": [
+        5.0,
+        4.5
+      ],
+      "current_coordinates": [
+        5.0,
+        4.5
+      ],
+      "pass": true
+    },
+    {
+      "node": 20,
+      "expected_class": "destination",
+      "current_class": "destination",
+      "expected_coordinates": [
+        -10,
+        0
+      ],
+      "current_coordinates": [
+        -10.0,
+        0.0
+      ],
+      "pass": true
+    }
+  ],
+  "suffix": {
+    "nominal_drone_1_route": [
+      0,
+      18,
+      17,
+      16,
+      15,
+      11,
+      12,
+      13,
+      14,
+      10,
+      9,
+      8,
+      7,
+      20
+    ],
+    "failure_time": 1.2,
+    "expected_leg": [
+      11,
+      12
+    ],
+    "current_leg": [
+      11,
+      12
+    ],
+    "bracketing_arrival_times": [
+      1.1825456146326019,
+      1.2825456146326246
+    ],
+    "interpolated_failure_position": [
+      -4.0,
+      0.5236315610219422
+    ],
+    "expected_unfinished_order": [
+      12,
+      13,
+      14,
+      10,
+      9,
+      8,
+      7
+    ],
+    "current_unfinished_order": [
+      12,
+      13,
+      14,
+      10,
+      9,
+      8,
+      7
+    ],
+    "manuscript_prose": "\\textcolor{red}{Figure \\ref{validation_disruption_instance} shows the second-stage recovery plan and timeline. Drone 1 fails during travel from node 11 to node 12 at time 1.2. Its seven unfinished coverage nodes, in the planned order, are $12,13,14,10,9,8,7$. These nodes are reassigned to Drone 2, which is traveling toward its retrieval point. Drone 2 is redirected to resume the interrupted area-coverage task. The resulting plan completes coverage in this failure scenario.}"
+  },
+  "checks": {
+    "source_sort_definition": true,
+    "active_sort_call": true,
+    "saved_output_matches_sorted_source_arrays": true,
+    "all_coordinates_match": true,
+    "all_target_classes_match": true,
+    "no_duplicate_node_ids": true,
+    "all_21_node_ids_present_once": true,
+    "area_row_count_12": true,
+    "area_multirow_spans_12": true,
+    "line_origin_ops_point_destination_counts": true,
+    "failure_leg_matches_saved_arrivals": true,
+    "unfinished_suffix_matches_saved_route": true,
+    "seven_unfinished_nodes": true,
+    "failure_position_rounds_to_manuscript": true
+  },
+  "pass": true,
+  "limitations": "No notebook code execution, Gurobi solve, model audit, or manuscript/image modification."
+}

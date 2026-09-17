@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-12",
+  "reason": "historical plans assigned overlapping sorties to one drone",
+  "solver": "svns_rerun/self_learning_VNS_validated.py (self_learning_VNS.py + plan validity check)",
+  "protocol": {
+    "max_iter": 500,
+    "local_iter": 100,
+    "temperature": 10000,
+    "rho": 0.8,
+    "stop_same_num": 35,
+    "LTD": 0.1,
+    "RTD": 0.1,
+    "TD": 200,
+    "DD": 15,
+    "V_d": 30,
+    "V_k": 20,
+    "local_search_update_frequency": 10,
+    "temperature_decay": 0.97,
+    "shaking_reset_num": 15,
+    "drones": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "cases": [
+    "C_6_20",
+    "RC_9_20",
+    "C_12_10",
+    "C_12_30",
+    "RC_12_10",
+    "RC_12_30"
+  ],
+  "per_run_records": "svns_rerun/runs/*.json (copied to 08_scripts/svns_rerun_runs)"
+}

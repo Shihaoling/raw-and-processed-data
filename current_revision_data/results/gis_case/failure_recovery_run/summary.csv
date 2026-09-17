@@ -1,0 +1,2 @@
+failure_drone,failure_sortie,failure_leg,failure_time,unserved_nodes,reassigned_nodes,initial_objective,recovered_objective,objective_increase,objective_increase_percent,coverage_completion_percent,maximum_sortie_time,rtar_runtime_seconds
+1,1,7->8,5.416937722374406,8;9;10;11;12,8;9;10;11;12,7.78271980969799,8.999926089438633,1.217206279740643,15.639857395661236,100.0,5.035620044494892,0.0005209579830989242

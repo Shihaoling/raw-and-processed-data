@@ -2,6 +2,13 @@
 
 This repository contains the raw result files and processed data for a **Self-Learning Variable Neighborhood Search (SVNS)** algorithm applied to a drone-truck collaborative inspection/routing problem. The algorithm co-optimizes routes for a ground truck and multiple drones to minimize the total mission completion time (makespan).
 
+## Current revised-manuscript data
+
+The data supporting the current revised manuscript are organized in
+[`current_revision_data/`](current_revision_data/). This directory contains only instance data,
+experimental outputs, and validation records; no source code or notebooks are included. The
+legacy `results/` directory is retained for the earlier repository release.
+
 ---
 
 ## Repository Structure
