@@ -1,0 +1,8 @@
+# Legacy results: new location
+
+This directory has moved to **[archive/legacy_results/](../archive/legacy_results/)**.
+
+This README preserves the former directory entry point. Individual files are now at
+their new paths; GitHub does not automatically redirect old file links.
+See [directory changes](../DIRECTORY_CHANGES.md), or browse the
+[complete previous directory](https://github.com/Shihaoling/raw-and-processed-data/tree/4211439c4ae4225932b5f8f3f531a152410364fd/results).
