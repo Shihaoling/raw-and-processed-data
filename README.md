@@ -11,6 +11,10 @@ legacy `results/` directory is retained for the earlier repository release.
 
 ---
 
+## Second-round constraint verification
+
+The [round2_constraint_verification/](round2_constraint_verification/) folder provides the constraint-reduction report and a complete archive of the verification inputs, solver logs, results, and scripts for the second revision. See the folder README for the report PDF, download link, checksums, and reproduction instructions. The archive preserves the recorded solver runs; publication preparation did not generate new optimization results.
+
 ## Repository Structure
 
 ```
